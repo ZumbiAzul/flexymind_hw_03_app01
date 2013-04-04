@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name="NewActivity">
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
+            android:configChanges="screenOrientation”
         </activity>
     </application>
 
