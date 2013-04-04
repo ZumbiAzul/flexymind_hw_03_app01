@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flexymind_hw_03_app01</string>
+    <string name="register">Регистрация</string>
+    <string name="exit">Выход</string>
+    
+    <string name="name">ФИО:</string>
+    <string name="date">Дата рождения:</string>
+    <string name="city">Город:</string>
+    <string name="hobby">Хобби:</string>
+    <string name="fishing">Рыбалка</string>
+    <string name="skiing">Лыжи</string>
+    <string name="origami">Оригами</string>
+    
+    <string-array name="cities">
+                <item>Санкт-Петербург</item>
+                <item>Москва</item>
+                <item>Нью-Йорк</item>
+    </string-array>
+
+</resources>
