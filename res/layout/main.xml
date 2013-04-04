@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"        
         android:layout_marginTop="200dp"
+        android:onClick="newActivity"
         android:text="@string/register" />
     
     <Button
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_marginTop="10dp"
+        android:onClick="closeActivity"
         android:text="@string/exit" />
 
 </LinearLayout>
