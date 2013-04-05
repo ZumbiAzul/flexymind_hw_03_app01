@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, Flexymind_hw_03_app01Activity!</string>
     <string name="app_name">Flexymind_hw_03_app01</string>
+    <string name="register">Register</string>
+    <string name="exit">Exit</string>
+    
+    <string name="name">Full Name:</string>
+    <string name="date">Date of Birth:</string>
+    <string name="city">City:</string>
+    <string name="hobby">Interests:</string>
+    <string name="fishing">Fishing</string>
+    <string name="skiing">Skiing</string>
+    <string name="origami">Origami</string>
+    
+    <string-array name="cities">
+                <item>Saint-Petersburg</item>
+                <item>Moscow</item>
+                <item>New-York</item>
+    </string-array>
 
 </resources>
