@@ -7,13 +7,14 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/name" />
+        android:layout_height="30dp"
+        android:text="@string/name"
+        android:textSize="24" />
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:inputType="textPersonName" >
 
         <requestFocus />
@@ -22,50 +23,56 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/date" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="date" />
+        android:layout_height="30dp"
+        android:text="@string/date"
+        android:textSize="24" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="445dp"
+        android:layout_height="150" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/city" />
+        android:text="@string/city"
+        android:textSize="24" />
 
     <Spinner
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:entries="@array/cities"
-        android:text="@array/cities" />
+        android:text="@array/cities"
+        android:textSize="24" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hobby" />
+        android:layout_height="30dp"
+        android:text="@string/hobby"
+        android:textSize="24" />
 
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fishing" />
+        android:text="@string/fishing"
+        android:textSize="24" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/skiing" />
+        android:text="@string/skiing"
+        android:textSize="24" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/origami" />
+        android:text="@string/origami"
+        android:textSize="24" />
 
 </LinearLayout>
